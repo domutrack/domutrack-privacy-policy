@@ -1,75 +1,303 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<title>Politique de Confidentialité - DomuTrack</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 900px; margin: auto; padding: 20px; background: #fafafa; color: #333; }
-    h1, h2 { color: #1B5E20; }
-    .section { background: white; padding: 20px; margin: 20px 0; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    a { color: #1B5E20; }
-</style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Politique de Confidentialité – DomuTrack</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 24px 20px 40px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+        }
+        h1, h2, h3 {
+            color: #1B5E20;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 26px;
+            text-align: center;
+            margin-top: 0;
+        }
+        h2 {
+            font-size: 20px;
+            border-left: 4px solid #1B5E20;
+            padding-left: 10px;
+        }
+        h3 {
+            font-size: 17px;
+        }
+        p {
+            margin: 8px 0;
+        }
+        ul {
+            padding-left: 20px;
+            margin: 6px 0 12px;
+        }
+        .date {
+            font-size: 13px;
+            color: #777777;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+        a {
+            color: #1565C0;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-top: 18px;
+        }
+        .footer {
+            margin-top: 32px;
+            font-size: 13px;
+            color: #777777;
+            text-align: center;
+        }
+        .tagline {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #555555;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
+<div class="container">
+    <h1>Politique de Confidentialité – DomuTrack</h1>
+    <div class="date">Dernière mise à jour : 30 novembre 2025</div>
 
-<h1>Politique de Confidentialité – DomuTrack</h1>
-<p><strong>Dernière mise à jour :</strong> 29/11/2025</p>
+    <p class="tagline">
+        La protection de votre vie privée est une priorité. Cette politique explique quelles données sont collectées,
+        comment elles sont utilisées et quels sont vos droits.
+    </p>
 
-<div class="section">
-<h2>1. Données collectées</h2>
-<p>DomuTrack ne collecte aucune donnée personnelle identifiable (nom, email, adresse, photos...).</p>
-<p>Toutes les données de projets, budgets et factures sont stockées uniquement sur votre appareil.</p>
+    <div class="section">
+        <h2>1. Données collectées par l’application</h2>
+        <p>
+            DomuTrack <strong>ne collecte aucune donnée personnelle au sens strict</strong> (nom, adresse, email,
+            photos, etc.) et <strong>n’envoie aucune information liée à vos projets, lots, devis, factures ou budgets
+            vers des serveurs externes</strong>. Toutes ces données restent <strong>stockées localement sur votre
+            appareil</strong>, et vous en avez le contrôle total.
+        </p>
+        <p>
+            Cependant, certains services tiers intégrés à l’application peuvent collecter des
+            <strong>données techniques anonymisées</strong>, nécessaires à leur fonctionnement (statistiques d’usage,
+            performances, affichage de publicités, etc.).
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>2. Services tiers utilisés</h2>
+        <p>
+            DomuTrack utilise les services suivants, fournis par Google / Firebase. Ces services peuvent collecter des
+            informations techniques relatives à l’utilisation de l’application.
+        </p>
+
+        <h3>2.1. AdMob (publicités)</h3>
+        <p><strong>Fournisseur :</strong> Google LLC</p>
+        <p>
+            AdMob permet d’afficher des publicités dans l’application. À cette fin, il peut collecter automatiquement
+            des informations telles que :
+        </p>
+        <ul>
+            <li>Identifiant publicitaire Google (AAID) ;</li>
+            <li>Informations sur l’appareil (modèle, version d’Android, langue, zone géographique approximative) ;</li>
+            <li>Adresse IP (souvent anonymisée) ;</li>
+            <li>Données relatives aux annonces (impressions, clics, fréquence d’affichage).</li>
+        </ul>
+        <p>
+            Vous pouvez désactiver la personnalisation des annonces à tout moment via les paramètres Android :
+            <em>Paramètres &gt; Google &gt; Annonces &gt; Désactiver la personnalisation des annonces</em>.
+        </p>
+        <p>
+            Pour plus d’informations, vous pouvez consulter la politique de Google concernant la publicité :
+            <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">
+                https://policies.google.com/technologies/ads
+            </a>
+        </p>
+
+        <h3>2.2. Firebase Analytics</h3>
+        <p>
+            Firebase Analytics collecte des <strong>données d’usage anonymisées</strong> afin de mieux comprendre
+            comment l’application est utilisée et d’améliorer l’expérience utilisateur. Les données peuvent inclure :
+        </p>
+        <ul>
+            <li>Écrans consultés dans l’application ;</li>
+            <li>Durée des sessions ;</li>
+            <li>Actions anonymisées (ouvertures de certaines fonctionnalités, clics sur des boutons, etc.).</li>
+        </ul>
+        <p>
+            Ces informations ne permettent pas de vous identifier directement et ne contiennent pas le détail de vos
+            projets, budgets, devis ou factures.
+        </p>
+
+        <h3>2.3. Firebase Crashlytics</h3>
+        <p>
+            Firebase Crashlytics collecte des <strong>rapports d’erreurs</strong> lorsque l’application se bloque
+            (crash). Ces rapports peuvent inclure :
+        </p>
+        <ul>
+            <li>Le modèle de l’appareil et la version d’Android ;</li>
+            <li>La version de l’application installée ;</li>
+            <li>Des informations techniques au moment du crash (journal technique, trace de pile).</li>
+        </ul>
+        <p>
+            Aucun contenu de vos projets, lots, devis ou factures n’est transmis dans ces rapports.
+        </p>
+
+        <h3>2.4. Firebase Performance Monitoring</h3>
+        <p>
+            Firebase Performance Monitoring collecte des <strong>données techniques anonymisées</strong> relatives aux
+            performances de l’application, par exemple :
+        </p>
+        <ul>
+            <li>Temps de chargement de certaines pages ou écrans ;</li>
+            <li>Temps de réponse réseau ;</li>
+            <li>Mesures de fluidité et de performance.</li>
+        </ul>
+        <p>
+            Cela permet d’identifier les lenteurs et d’améliorer la stabilité de DomuTrack.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>3. Données stockées localement (budgets, lots, devis, factures)</h2>
+        <p>
+            Toutes les données que vous saisissez dans DomuTrack pour suivre vos budgets de travaux (projets,
+            financements, lots, devis, factures, etc.) sont :
+        </p>
+        <ul>
+            <li><strong>Stockées localement sur votre appareil</strong> ;</li>
+            <li><strong>Non transmises</strong> à des serveurs externes par DomuTrack ;</li>
+            <li>Gérées uniquement par vous à travers l’interface de l’application.</li>
+        </ul>
+        <p>
+            La suppression de l’application depuis votre appareil entraîne en principe la suppression de ces données
+            locales.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>4. Partage des données</h2>
+        <p>
+            DomuTrack <strong>ne vend pas</strong> et ne partage pas de données personnelles à des tiers à des fins
+            commerciales.
+        </p>
+        <p>
+            Les seules données éventuellement transmises le sont directement aux services tiers mentionnés
+            précédemment (Google, Firebase, AdMob), et ce dans le cadre de leurs propres politiques de confidentialité
+            et toujours sous forme <strong>anonymisée ou pseudonymisée</strong>.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>5. Conservation et suppression des données</h2>
+        <ul>
+            <li>
+                <strong>Données locales (budgets, lots, devis, factures)</strong> :
+                stockées uniquement sur votre appareil, supprimées en cas de désinstallation
+                de l’application ou de réinitialisation de vos données.
+            </li>
+            <li>
+                <strong>Données collectées par les services Google/Firebase</strong> :
+                conservées selon les politiques de conservation de Google. Vous pouvez consulter et gérer une partie
+                de ces données via votre compte Google :
+                <a href="https://myactivity.google.com/" target="_blank" rel="noopener noreferrer">
+                    https://myactivity.google.com/
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>6. Sécurité</h2>
+        <p>
+            DomuTrack ne collecte pas de données sensibles (telles que numéro de carte bancaire, identifiant
+            gouvernemental, mot de passe de service tiers, etc.).
+        </p>
+        <p>
+            Les données locales sont protégées par les mécanismes de sécurité du système Android et par l’accès
+            physique à votre appareil (code PIN, schéma, reconnaissance biométrique, etc.).
+        </p>
+        <p>
+            Les services tiers (Google, Firebase) appliquent leurs propres mesures de sécurité pour la protection des
+            données traitées sur leurs infrastructures.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>7. Vos droits (RGPD – Utilisateurs européens)</h2>
+        <p>
+            Si vous résidez dans l’Union Européenne, vous bénéficiez de droits spécifiques au titre du Règlement
+            Général sur la Protection des Données (RGPD), notamment :
+        </p>
+        <ul>
+            <li>Droit d’accès à vos données personnelles ;</li>
+            <li>Droit de rectification ou d’effacement ;</li>
+            <li>Droit à la limitation du traitement ;</li>
+            <li>Droit d’opposition ;</li>
+            <li>Droit à la portabilité des données, lorsque cela s’applique.</li>
+        </ul>
+        <p>
+            Pour les données traitées par Google/Firebase (Analytics, Crashlytics, Performance, AdMob), vous pouvez
+            consulter les pages d’aide Google dédiées à la confidentialité :
+            <a href="https://support.google.com/policies/troubleshooter/7575787"
+               target="_blank" rel="noopener noreferrer">
+                https://support.google.com/policies/troubleshooter/7575787
+            </a>
+        </p>
+        <p>
+            Pour toute question concernant les données gérées directement par DomuTrack, vous pouvez nous contacter
+            (voir section ci-dessous).
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>8. Contact</h2>
+        <p>
+            Pour toute demande relative à cette politique de confidentialité ou à la gestion de vos données,
+            vous pouvez contacter le développeur de DomuTrack à l’adresse suivante :
+        </p>
+        <p>
+            <strong>Email :</strong> <a href="mailto:domutrack.app@gmail.com">domutrack.app@gmail.com</a>
+            <!-- Remplace l'adresse si tu utilises une autre adresse officielle -->
+        </p>
+        <p>
+            Nous ferons de notre mieux pour répondre à vos questions dans un délai de 30 jours.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>9. Modifications de cette politique</h2>
+        <p>
+            Cette politique de confidentialité peut être mise à jour en cas d’évolution de l’application, des services
+            tiers utilisés ou des obligations légales.
+        </p>
+        <p>
+            En cas de modification importante, la nouvelle version sera publiée sur cette page avec une nouvelle date de
+            mise à jour.
+        </p>
+    </div>
+
+    <div class="footer">
+        DomuTrack – Application de gestion de budget travaux<br />
+        © 2025 – Tous droits réservés.
+    </div>
 </div>
-
-<div class="section">
-<h2>2. Services tiers utilisés</h2>
-
-<h3>✔ Google AdMob</h3>
-<p>Utilisé pour afficher des publicités. Peut collecter des données techniques anonymisées telles que l’identifiant publicitaire, les informations sur le téléphone ou l’usage des annonces.</p>
-<p><a href="https://policies.google.com/technologies/ads" target="_blank">Documentation AdMob</a></p>
-
-<h3>✔ Firebase Analytics</h3>
-<p>Utilisé pour analyser l’usage global de l’application (pages ouvertes, clics, durée d’utilisation). Les données sont anonymisées et ne permettent pas d’identifier l’utilisateur.</p>
-<p><a href="https://firebase.google.com/support/privacy" target="_blank">Documentation Firebase</a></p>
-
-<h3>✔ Firebase Crashlytics</h3>
-<p>Utilisé pour détecter et corriger les crashs. Les données incluent les informations techniques (stacktrace, modèle du téléphone, version Android).</p>
-
-<h3>✔ Firebase Performance Monitoring</h3>
-<p>Utilisé pour mesurer automatiquement les performances de l’application (temps de chargement des écrans, stabilité, fluidité). Les données sont techniques et anonymisées.</p>
-
-</div>
-
-<div class="section">
-<h2>3. Stockage local des données</h2>
-<p>Toutes les données saisies dans DomuTrack (factures, lots, devis, budgets) sont stockées localement sur votre appareil et ne sont jamais envoyées sur un serveur externe.</p>
-</div>
-
-<div class="section">
-<h2>4. Partage de données</h2>
-<p>DomuTrack ne vend ni ne partage aucune donnée personnelle. Seuls les services listés ci-dessus peuvent traiter des données techniques anonymisées afin de fonctionner.</p>
-</div>
-
-<div class="section">
-<h2>5. Sécurité</h2>
-<p>Les données sont protégées via le stockage interne d’Android. Vous pouvez supprimer toutes les données en désinstallant l’application.</p>
-</div>
-
-<div class="section">
-<h2>6. Vos droits</h2>
-<p>Puisque DomuTrack ne collecte aucune donnée personnelle, aucune demande de suppression ou de modification n’est nécessaire.</p>
-</div>
-
-<div class="section">
-<h2>7. Modifications</h2>
-<p>Cette politique pourra être mise à jour pour refléter l’évolution de l’application ou la réglementation.</p>
-</div>
-
-<div class="section">
-<h2>8. Contact</h2>
-<p>Pour toute question, contactez-nous à : <strong>[Ton email développeur Play Console]</strong></p>
-</div>
-
 </body>
 </html>
